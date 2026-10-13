@@ -1,0 +1,33 @@
+# Version control
+.git
+.gitignore
+
+# Gradle caches and intermediate build output — but NOT the final JAR
+.gradle
+build/classes
+build/generated
+build/kotlin
+build/resources
+build/tmp
+build/reports
+build/test-results
+
+# IDE and editor files
+.idea
+*.iml
+*.code-workspace
+.vscode
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment / secrets
+.env
+*.env
+*.env.*
+
+# Log files
+*.log
