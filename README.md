@@ -56,12 +56,7 @@ campus-hub-backend     latest    <id>           <time>          <size>
 
 ### Screenshot 1 — Docker build thành công và `docker images`
 
-> **[CHỤP MÀN HÌNH]** Sau khi chạy `docker build` và `docker images`, chụp terminal
-> hiển thị output build kết thúc bằng `FINISHED` và bảng `docker images` có dòng
-> `campus-hub-backend   latest`.
->
-> Lưu ảnh vào `screenshots/01_docker_build.png` và thay thế khối này bằng:
-> `![Docker build và docker images](screenshots/01_docker_build.png)`
+![Docker build và docker images](screenshots/01_docker_build.png)
 
 ---
 
@@ -80,15 +75,7 @@ Lệnh này sẽ:
 
 ### Screenshot 2 — Các services đang chạy
 
-```bash
-docker compose ps
-```
-
-> **[CHỤP MÀN HÌNH]** Chụp output của `docker compose ps` hiển thị cả hai service
-> `mysql` và `backend` với trạng thái `running`.
->
-> Lưu ảnh vào `screenshots/02_compose_ps.png` và thay thế khối này bằng:
-> `![Compose services đang chạy](screenshots/02_compose_ps.png)`
+![Compose services đang chạy](screenshots/02_compose_ps.png)
 
 ---
 
@@ -126,11 +113,7 @@ Content-Type: application/vnd.spring-boot.actuator.v3+json
 
 ### Screenshot 3 — HTTP 200 và `{"status":"UP"}`
 
-> **[CHỤP MÀN HÌNH]** Chụp output của lệnh `curl` hiển thị `HTTP/1.1 200 OK` và
-> JSON body chứa `"status":"UP"`.
->
-> Lưu ảnh vào `screenshots/03_health.png` và thay thế khối này bằng:
-> `![Health endpoint trả về 200 UP](screenshots/03_health.png)`
+![Health endpoint trả về 200 UP](screenshots/03_health.png)
 
 ---
 
